@@ -7,5 +7,6 @@ namespace DlogS.Api.Service
 {
     public class ArticleService
     {
+        public string 
     }
 }

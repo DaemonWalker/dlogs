@@ -10,9 +10,10 @@ namespace DlogS.Api.Entity
     {
         [Column(IsIdentity = true)]
         public int Id { get; set; }
-
         public string Title { get; set; }
         public string Content { get; set; }
         public string ShowId { get; set; }
+        public string Summary { get; set; }
+        public DateTime UploadTime { get; set; }
     }
 }
